@@ -24,4 +24,4 @@ spring:
           binder: shiayangaBinder
           group: inputLogGroup
 server:
-  port: 9091
+  port: 9092

@@ -12,6 +12,8 @@
     <name>spring-cloud-learn</name>
     <modules>
         <module>spring-cloud-stream-producer</module>
+        <module>spring-cloud-stream-consumer</module>
+        <module>spring-cloud-stream-consumer-1</module>
     </modules>
 
 
