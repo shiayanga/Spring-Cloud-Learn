@@ -18,5 +18,9 @@ spring:
           destination: shiayangaExchange
           content-type: text/plain
           binder: shiayangaBinder
+        outputLog:
+          destination: inputLog
+          content-type: text/plain
+          binder: shiayangaBinder
 server:
   port: 9090

@@ -1,4 +1,4 @@
-package com.github.shiayanga.streamconsumer;
+package com.github.shiayanga.streamconsumer.service;
 
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
