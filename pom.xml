@@ -11,25 +11,35 @@
     <packaging>pom</packaging>
     <name>spring-cloud-learn</name>
     <modules>
-        <module>spring-cloud-stream-producer</module>
+       <!-- <module>spring-cloud-stream-producer</module>
         <module>spring-cloud-stream-consumer</module>
-        <module>spring-cloud-stream-consumer-1</module>
+        <module>spring-cloud-stream-consumer-1</module>-->
+        <module>sca-nacos-demo</module>
     </modules>
 
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.6.RELEASE</version>
+        <version>2.6.3</version>
     </parent>
 
     <dependencyManagement>
         <!--SpringCloud依赖-->
-        <dependencies>
+        <!--<dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Greenwich.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>-->
+        <dependencies>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2021.0.1.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
